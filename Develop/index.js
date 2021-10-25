@@ -126,17 +126,3 @@ const writeToFile = data => {
     })
 }; 
 
-// function call to initialize program
-questions()
-// getting user answers 
-.then(answers => {
-    return generatePage(answers);
-})
-// using data to display on page 
-.then(data => {
-    return writeToFile(data);
-})
-// catching errors 
-.catch(error => {
-    console.log(error)
-})
