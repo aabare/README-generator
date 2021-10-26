@@ -114,8 +114,8 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = data => {
-    fs.writeToFile('README.md', data, error => {
+const writeFile = data => {
+    fs.writeFile('README.md', data, error => {
         // if there is an error 
         if (error) {
             console.log(error);
@@ -133,7 +133,7 @@ questions()
     return generatePage(answers);
 })
 .then(data => {
-    return writeToFile(data);
+    return writeFile(data);
 })
 .catch(error => {
     console.log(error)
