@@ -28,4 +28,4 @@
   npm test is required to test the generator.
   ## Questions
   If you have any questions about this projects, please contact me directly at a.6942@yahoo.com. You can view more of my projects at https://github.com/aabare.
-![Capture](https://user-images.githubusercontent.com/88077451/138791196-2c837bdc-7b07-46e7-8cc4-d989de094773.PNG)
+
